@@ -11,7 +11,7 @@ var counter = 0;
 var high = { 'highest': 0 }
 var setintervalID2 = 0;
 // document.getElementById('highscore').innerText = getcookie(document.cookie)
-if (getcookie(document.cookie) = undefined) {
+if (getcookie(document.cookie) == undefined) {
 document.getElementById('highscore').innerText = "0";
 
 } else {
