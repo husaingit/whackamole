@@ -58,7 +58,7 @@ function start() {
             highest(result);
             var finalHighest = getcookie(document.cookie);
             document.getElementById('highscore').innerText = finalHighest
-            alert('Game Over! Your Final Score is ' + result + ', highest score is ' + finalHighest);
+            alert('Time up! Your Score is ' + result + ', Highest score is ' + finalHighest);
 
             timeLeft.textContent = 30
             score.textContent = 0;
