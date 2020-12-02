@@ -10,13 +10,20 @@ var setintervalID = 0;
 var counter = 0;
 var high = { 'highest': 0 }
 var setintervalID2 = 0;
+// document.getElementById('highscore').innerText = getcookie(document.cookie)
+if (getcookie(document.cookie) = undefined) {
+document.getElementById('highscore').innerText = 0
+
+} else {
 document.getElementById('highscore').innerText = getcookie(document.cookie)
+
+}
 
 function mol() {
     square1.forEach(c => {
         c.classList.remove("mole")
     })
-    i = Math.floor(Math.random() * 6)
+    i = Math.floor(Math.random() * 9)
     counter = 0;
     square1[i].classList.add("mole")
     hitid = square1[i].id
