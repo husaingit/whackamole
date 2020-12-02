@@ -1,0 +1,56 @@
+    .box {
+        width: 80px!important;
+        height: 100px;
+        border: 1px solid black;
+    }
+    
+    .container .grid {
+        width: fit-content;
+    }
+    /* .grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+    } */
+    
+    h1 {
+        font-weight: bold!important;
+    }
+    
+    .mole {
+        background-image: url('mole.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    p {
+        color: rgb(7, 7, 7);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .btn {
+        background-color: gray!important;
+        opacity: 0.8;
+        color: white!important;
+        margin: 5px!important;
+        border-radius: 20px!important;
+    }
+    
+    body {
+        background: #16222A;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #3A6073, #435c6d);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #3A6073, #2c4453);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    
+    #time-left,
+    #highscore,
+    #score {
+        color: rgb(209, 113, 68)!important;
+    }
